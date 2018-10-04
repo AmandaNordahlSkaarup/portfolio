@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* main portfolio styles */
+@import url('https://fonts.googleapis.com/css?family=K2D');
+/* CSS reset - skal se ens ud i alle browser */
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+/* classic style*/
+#menu {
+	border-bottom: 1px solid #666;
+	padding: 0px;
+	margin: 125px 420px 0px 0px; 
+	float:right;
+	
+}
+#menu li {
+	list-style: none;
+	display: inline;
+}
+#menu a {
+	margin: 0 20px 0px 20px;
+	font-family: 'K2D', sans-serif;
+	text-decoration: none;
+	color: #B61031;
+	/* border: 1px solid #666; */
+	padding: 5px 10px 5px 10px;
+	background: #B0B0B0;
+	border-radius: 20px 20px 20px 20px;
+	display: inline-block;
+	width: 100px;
+	border-bottom: hidden;
+	text-align: center;
+	
+}
+#menu a:hover {
+	background: #CECECE;
+}
+/* styling af det første link alene*/
+#menu a:first-of-type {
+	margin-left: 0;
+}
+
+
